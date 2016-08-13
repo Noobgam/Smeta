@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.noobgam.button">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_activity_edit_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditNameActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditRoomActivity"
+            android:label="@string/title_activity_edit_room"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ChooseWorksActivity"
+            android:label="@string/title_activity_choose_works"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ListOverview"
+            android:label="@string/title_activity_list_overview"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ListOverviewNewMaterial"
+            android:label="@string/title_activity_list_overview_new_material"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

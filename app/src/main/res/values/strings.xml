@@ -1,0 +1,33 @@
+<resources>
+    <string name="title_activity_edit_name">Введите имя</string>
+    <string name="title_activity_edit_room">Редактор комнаты</string>
+    <string name="Sample_Text">Sample Text</string>
+    <string name="floors">Полы</string>
+    <string name="walls">Стены</string>
+    <string name="ceiling">Потолки</string>
+    <string name="length">Длина</string>
+    <string name="width">Ширина</string>
+    <string name="next_button">Далее</string>
+    <string name="title_activity_choose_works">Выберите типы работ</string>
+    <string name="new_material">Добавить тип работ</string>
+    <string name="title_activity_list_overview">ListOverview</string>
+    <string name="new_type">Новый тип</string>
+    <string-array name="measurements">
+        <item>Килограмм</item>
+        <item>Метр</item>
+        <item>Метр<sup>2</sup></item>
+        <item>Метр<sup>3</sup></item>
+        <item>Литр</item>
+        <item>Штука</item>
+    </string-array>
+    <string-array name="measurements_short">
+        <item>кг</item>
+        <item>м</item>
+        <item>м<sup>2</sup></item>
+        <item>м<sup>3</sup></item>
+        <item>л</item>
+        <item>шт</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_list_overview_new_material">ListOverviewNewMaterial</string>
+</resources>
