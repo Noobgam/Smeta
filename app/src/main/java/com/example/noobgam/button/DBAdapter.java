@@ -1,4 +1,3 @@
-// TODO: Change the package to match your project.
 package com.example.noobgam.button;
 
 import android.content.ContentValues;
@@ -14,10 +13,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-
-// TO USE:
-// Change the package (at top) to match your project.
-// Search for "TODO", and make the appropriate changes.
 public class DBAdapter {
 
 	/////////////////////////////////////////////////////////////////////
@@ -380,11 +375,6 @@ public class DBAdapter {
 	{
 		String where = KEY_ROWID + "=" + rowId;
 
-		/*
-		 * CHANGE 4:
-		 */
-		// TODO: Update data in the row with new fields.
-		// TODO: Also change the function's arguments to be what you need!
 		// Create row's data:
 		ContentValues newValues = new ContentValues();
 		newValues.put(MATERIAL_KEY_MATERIAL,  material);
